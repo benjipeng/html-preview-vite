@@ -1,0 +1,13 @@
+/* Define configurable CSS variables */
+:root {
+  --color-accent: #3b82f6; /* Default blue-500 - CHANGE THIS VALUE TO RECONFIGURE */
+  /* Add more shades if needed, e.g., --color-accent-dark: #2563eb; */
+}
+
+/* Apply Tailwind directives */
+@import "tailwindcss";
+
+/* Optional: Base body styles */
+body {
+  @apply bg-white text-gray-900 dark:bg-gray-900 dark:text-gray-100 transition-colors duration-200;
+}
